@@ -1,0 +1,19 @@
+# 中间产物
+work/
+build/
+
+# 本地会话记录，不进 git
+.workbuddy/
+
+# 发布二进制走 GitHub Release，不进 git 历史
+output/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
